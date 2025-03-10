@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Sudhanshu Singh'
+theme = 'PaperMod'
+
+
+[params]
+
+    [params.homeInfoParams]
+        Title = "🚀 Full-Stack Developer  | Tech Enthusiast"
+    Content = """ 
+    👋 Hey there! I'm Sudhanshu Singh, a passionate Full-Stack Developer dedicated to crafting seamless digital experiences.  
+
+    🔥 What I Do:  
+    - 💻 Build scalable & user-friendly web applications.  
+    - 📊 Explore Data Analytics, UX Design, AI/ML to enhance decision-making.  
+    - 🚀 Stay updated with the latest tech trends to deliver cutting-edge solutions.  
+
+    🤝 Let's Collaborate!  
+    - Open to exciting projects, freelance opportunities, and tech discussions.
+
+    📌 Fun Fact: I love solving complex problems and turning ideas into reality!  
+    """
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/sudhanshusingh-g'
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://www.linkedin.com/in/sudhanshusingh32/'
+    [[params.socialIcons]]
+        name = 'twitter'
+        url = 'https://x.com/SinghSudha78033'
+    [[params.socialIcons]]
+        name = 'email'
+        url = 'mailto:sudsingh32@gmail.com'
+
+    showBreadCrumbs = true
+    showReadingTime = true
+    showPostNavLinks = true
+    showShareButtons = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://docs.google.com/document/d/1PJJ-WvtcVJywbtSaK9WH0fXAMlap95BpP95vNhFPhgo/edit?usp=sharing"
+    weight = 20
+    pre = "<i class='fas fa-file-alt'></i>"
